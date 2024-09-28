@@ -1,0 +1,23 @@
+.hoja {
+    width: 1000px;
+    height: 700px;
+    background-color: #fffefe; /* Color de fondo más claro */
+    border: 5px solid #000000; /* Borde más ancho y gris claro */
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2); /* Sombra suave */
+    margin: 0 auto;
+    padding: 20px;
+    word-wrap: break-word;
+    overflow: auto;
+}
+.fondo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('int.png'); /* Reemplaza con tu imagen */
+    background-size: cover;
+    background-position: center;
+    filter: blur(5px); /* Desenfoque opcional */
+    z-index: -1; /* Coloca la imagen detrás del contenido */
+}
